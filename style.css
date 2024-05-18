@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #003366; /* Adjust color to match exact shade of blue */
+}
+
+.centered-div {
+    text-align: center;
+    color: white; 
+}
+
+.centered-div h1 {
+    font-size: 24px; 
+    margin-bottom: 10px; 
+}
+
+.centered-div p {
+    font-size: 16px; 
+}
+
+.centered-image {
+    text-align: center;
+}
+
+
+/* .centered-image {
+    
+position: absolute;
+width: 469px;
+height: 349px;
+left: 522px;
+top: 317px;
+
+background: url(logo-color-removebg-preview.png);
+} */

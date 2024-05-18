@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pediatrician Dashboard</title>
+<link rel="stylesheet" href="style3.css">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+  }
+  .container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  .patient-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .patient-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  .patient-item div {
+    margin-bottom: 5px;
+  }
+  .patient-item button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .patient-item button:hover {
+    background-color: #0056b3;
+  }
+  .sidebar {
+    width: 200px;
+    background-color: #343a40;
+    color: white;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  .sidebar a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  .sidebar a:hover {
+    background-color: #495057;
+  }
+  .main-content {
+    margin-left: 200px;
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
+  <div class="sidebar">
+    <a href="#">Dashboard</a>
+    <a href="#">Patients</a>
+    <a href="#">Messages</a>
+    <a href="#">Appointments</a>
+    <a href="#">Reports</a>
+    <a href="#">Billing</a>
+    <a href="#">Payouts</a>
+    <a href="#">Settings</a>
+    <a href="#">Help</a>
+    <a href="#">Logout</a>
+  </div>
+  <div class="main-content">
+    <div class="container">
+      <div class="header">
+        <span>Menu</span>
+        <h4>Pediatrician Dashboard</h4>
+        <span>Search</span>
+      </div>
+      <ul class="patient-list">
+        <li class="patient-item">
+          <div>Name: Rahul Mehta</div>
+          <div>Phone: 9178965768</div>
+          <div>ABHA: 23456785423467</div>
+          <div>Address: 23 Waghodia Street, Vadodara</div>
+          <div>Diagnosis: Severe Malnutrition</div>
+          <div>Priority: High</div>
+          <button>Call</button>
+          <button>Message</button>
+        </li>
+        <!-- More patients can be added here -->
+      </ul>
+    </div>
+  
+ 
+    </div>
+    <br>
+  </div>
+</body>
+</html>
